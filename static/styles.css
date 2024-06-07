@@ -12,11 +12,11 @@
 }
 
 :root {
-    --color-principal: #ff9f0d;
-    --color-texto: #fff;
+    --color-principal: #ffc5D4;
+    --color-texto: #6e4831;
     --color1: #212121;
     --color2: #9e9e9e;
-    --color-fondo: #111111;
+    --color-fondo: beige;
 
     --titulos: 4rem;
     --subtitulos: 2.5rem;
@@ -329,6 +329,7 @@ header.sticky {
     text-align: justify;
     text-decoration: underline;
     text-decoration-style: double;
+    font-size: 1rem;
 }
 
 .texto-adentro p {
@@ -362,8 +363,8 @@ header.sticky {
     margin-top: 20px;
     background-color: var(--color-fondo);
     color: var(--color-principal);
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: bold;
     letter-spacing: 1px;
     border-radius: 3rem;
     transition: all 0.3s ease;
@@ -441,6 +442,7 @@ header.sticky {
     bottom: 2.2rem;
     border-top: 2rem;
     right: 3.2rem;
+    
 }
 
 .scroll i {
@@ -451,6 +453,12 @@ header.sticky {
     border-radius: 2rem;
 
 }
+
+.bx-up-arrow-alt:hover {
+    color: black;
+    background-color: gray;
+}
+
 
 @media(max-width: 1545px) {
     header {
