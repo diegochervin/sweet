@@ -75,11 +75,11 @@ header {
 }
 
 .nav-lista a:hover {
-    color: var(--color-principal);
+    
 }
 
 .nav-lista a.activo {
-    color: var(--color-principal);
+  
 }
 
 
@@ -188,7 +188,7 @@ span {
 
 header.sticky {
     padding-bottom: 20px;
-    background-color: var(--color1);
+    background-color: var(--color-principal);
 }
 
 .contenedor {
@@ -317,7 +317,7 @@ header.sticky {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    color: black;
+    color: var(--color-texto);
     font-size: .7rem;
     font-weight: 700;
     margin-bottom: 20px;
@@ -353,7 +353,7 @@ header.sticky {
 
 .texto-adentro .precio h6 {
     font-size: 17px;
-    color: black;
+    color: var(--color-texto);
     font-weight: 600;
 }
 
@@ -361,7 +361,7 @@ header.sticky {
     display: inline-block;
     padding: 9px 23px;
     margin-top: 20px;
-    background-color: var(--color-fondo);
+    background-color: var(--color-texto);
     color: var(--color-principal);
     font-size: 1rem;
     font-weight: bold;
